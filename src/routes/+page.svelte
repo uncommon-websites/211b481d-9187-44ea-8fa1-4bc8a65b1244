@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Notion Mail</title>
+	<title>V7 Go - Intelligent Document Processing</title>
 </svelte:head>
 
 <Hero />

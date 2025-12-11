@@ -1,9 +1,9 @@
 <script lang="ts">
 	const links = {
 		Company: ["About us", "Careers", "Security", "Status", "Terms & privacy", "Your privacy rights"],
-		Download: ["iOS & Android", "Mac & Windows", "Calendar", "Web Clipper"],
-		Resources: ["Help center", "Pricing", "Blog", "Community", "Integrations", "Templates", "Partner programs"],
-		"Notion for": ["Enterprise", "Small business", "Personal"]
+		Product: ["API Documentation", "Integrations", "Pricing", "Use Cases"],
+		Resources: ["Help center", "Blog", "Case studies", "Documentation", "Partner programs"],
+		"Solutions": ["Finance & Accounting", "Healthcare", "Legal", "Logistics"]
 	};
 </script>
 
@@ -11,8 +11,7 @@
 	<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
 		<div class="lg:col-span-2 flex flex-col gap-6">
 			<div class="flex items-center gap-2">
-				<svg viewBox="0 0 24 24" width="24" height="24" class="block" fill="currentColor"><path d="M4.396 3h15.21c.772 0 1.396.623 1.396 1.395v15.21c0 .77-.624 1.395-1.396 1.395H4.396A1.397 1.397 0 0 1 3 19.605V4.395C3 3.623 3.624 3 4.396 3zm4.562 4.416c-.4 0-.725.324-.725.723v7.722c0 .4.325.724.725.724h.548c.313 0 .587-.197.684-.49l3.52-6.57v6.336c0 .4.325.724.725.724h.548c.4 0 .725-.324.725-.724V7.416c0-.4-.325-.723-.725-.723h-.62c-.313 0-.586.197-.684.49L9.635 13.63V7.416c0-.4-.325-.723-.725-.723h-.548z"></path></svg>
-				<span class="font-medium text-lg tracking-tight text-notion-black">Notion</span>
+				<span class="font-bold text-2xl tracking-tight text-notion-black">V7 Go</span>
 			</div>
 			
 			<div class="flex gap-4 text-notion-gray">
@@ -35,7 +34,7 @@
             <div class="mt-auto pt-8 text-gray-500 text-xs">
                 <p>Do Not Sell or Share My Info</p>
                 <p class="mt-1">Cookie settings</p>
-                <p class="mt-4">© 2025 Notion Labs, Inc.</p>
+                <p class="mt-4">© 2025 V7 Go, Inc.</p>
             </div>
 		</div>
 
@@ -45,9 +44,9 @@
 				{#each items as item}
 					<a href="#" class="text-notion-gray hover:text-notion-blue hover:underline transition-colors">{item}</a>
 				{/each}
-                {#if category === "Notion for"}
+                {#if category === "Solutions"}
                     <a href="#" class="font-medium text-notion-black flex items-center gap-1 mt-4 hover:text-notion-blue hover:underline transition-colors">
-                        Explore more
+                        View all solutions
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </a>
                 {/if}

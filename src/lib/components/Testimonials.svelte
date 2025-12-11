@@ -2,24 +2,24 @@
     // Testimonials Component
     const testimonials = [
         {
-            name: "Camille Ricketts",
-            handle: "@camillericketts",
-            text: "Notion Mail let me create a system so customized to the way I work, my relationships, and my tone of voice that there's no way I could go back."
+            name: "Sarah Chen",
+            handle: "CFO, TechCorp",
+            text: "V7 Go reduced our invoice processing time from days to minutes. The accuracy is incredible—we've eliminated manual data entry errors completely."
         },
         {
-            name: "Aleks",
-            handle: "@aleksliving",
-            text: "OK: Notion Mail is pretty sick."
+            name: "Marcus Rodriguez",
+            handle: "Operations Director",
+            text: "The AI understands complex document structures that other tools miss. It's like having a team of data entry specialists working 24/7."
         },
         {
-            name: "Mike Majara",
-            handle: "@mikemajara",
-            text: "@NotionMail deserves every bit of hype it's getting. The switch from Gmail is just natural for power users."
+            name: "Emily Watson",
+            handle: "Finance Manager",
+            text: "V7 Go handles everything from receipts to contracts seamlessly. The confidence scores give us peace of mind about data quality."
         },
         {
-            name: "Rohit Ghumare",
-            handle: "@ghumare64",
-            text: "With @NotionMail's AI, unwanted spam, updates, promotions... I can focus on essential emails."
+            name: "David Park",
+            handle: "Head of Procurement",
+            text: "We process thousands of purchase orders monthly. V7 Go's automation has been transformative for our team's productivity."
         }
     ];
 </script>

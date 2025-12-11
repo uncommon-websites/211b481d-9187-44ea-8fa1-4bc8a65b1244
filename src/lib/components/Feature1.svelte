@@ -1,7 +1,7 @@
 <section class="max-w-[1000px] mx-auto px-4 py-20">
     <div class="flex flex-col md:flex-row justify-between items-start mb-12">
         <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black max-w-lg text-balance leading-[1.1]">
-            Every email organized, automatically.
+            Every document classified, automatically.
         </h2>
         <!-- Stamps Illustration -->
         <div class="mt-8 md:mt-0 relative">
@@ -53,22 +53,22 @@
             <div class="px-3 py-2 text-xs font-medium text-gray-500">Suggested</div>
             <div class="space-y-1">
                 <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
-                    <span class="text-sm text-notion-black">Documents that require my signature</span>
+                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                    <span class="text-sm text-notion-black">Invoices with payment terms</span>
                 </div>
                 <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                    <span class="text-sm text-notion-black">Product feedback from customers</span>
+                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path></svg>
+                    <span class="text-sm text-notion-black">Contracts requiring review</span>
                 </div>
                 <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                    <span class="text-sm text-notion-black">Travel bookings and confirmations</span>
+                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect></svg>
+                    <span class="text-sm text-notion-black">Receipts for expense reports</span>
                 </div>
             </div>
         </div>
     </div>
 
     <p class="mt-8 text-lg text-notion-black max-w-2xl">
-        Tell Notion AI what types of emails are important to read, and it'll automatically label and sort them as they arrive.
+        Train V7 Go on your document types, and it'll automatically classify and extract data as documents arrive—no manual sorting required.
     </p>
 </section>

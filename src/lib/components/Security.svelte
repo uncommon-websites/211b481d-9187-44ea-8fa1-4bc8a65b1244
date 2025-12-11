@@ -29,6 +29,7 @@
             </div>
             <div>
                 <h3 class="font-semibold text-notion-black text-lg">No training on your data.</h3>
+                <p class="text-notion-gray mt-1">Your documents remain private and are never used to train our models.</p>
             </div>
         </div>
 

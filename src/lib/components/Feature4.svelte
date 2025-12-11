@@ -15,10 +15,10 @@
             </div>
 
             <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black mb-6 text-balance leading-[1.1]">
-                It feels just <br /> like Notion.
+                Works with any <br /> document format.
             </h2>
             <p class="text-xl text-notion-gray max-w-md">
-                Quickly compose beautiful emails with the Notion editor.
+                Process PDFs, images, scanned documents, and more—V7 Go handles them all with the same accuracy.
             </p>
         </div>
 

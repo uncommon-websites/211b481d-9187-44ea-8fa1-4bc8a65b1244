@@ -1,6 +1,6 @@
 <section class="max-w-[1200px] mx-auto px-4 py-20">
     <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black mb-16 text-center">
-        Available anywhere, even offline.
+        Flexible deployment options for your needs.
     </h2>
 
     <div class="grid md:grid-cols-2 gap-8">
@@ -52,9 +52,10 @@
                 </div>
             </div>
             <div>
-                <h3 class="text-xl font-semibold text-notion-black mb-2">Email on the go with the iOS app.</h3>
+                <h3 class="text-xl font-semibold text-notion-black mb-2">Cloud-based processing with REST API.</h3>
+                <p class="text-notion-gray mb-3">Upload documents via API and receive structured JSON responses in real-time.</p>
                 <button class="bg-notion-black text-white text-sm font-medium px-4 py-2 rounded-[4px] hover:bg-notion-gray transition-colors flex items-center gap-2">
-                    Download for iOS
+                    View API docs
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                 </button>
             </div>
@@ -88,9 +89,10 @@
                  </div>
             </div>
             <div>
-                <h3 class="text-xl font-semibold text-notion-black mb-2">Email without distractions. Get the Mac App.</h3>
+                <h3 class="text-xl font-semibold text-notion-black mb-2">On-premise deployment for enterprise security.</h3>
+                <p class="text-notion-gray mb-3">Deploy V7 Go within your infrastructure for complete data control and compliance.</p>
                 <button class="bg-notion-black text-white text-sm font-medium px-4 py-2 rounded-[4px] hover:bg-notion-gray transition-colors flex items-center gap-2">
-                    Download for macOS
+                    Contact sales
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                 </button>
             </div>

@@ -1,34 +1,48 @@
 <section class="py-24 px-4 text-center">
     <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-notion-black mb-8 max-w-2xl mx-auto text-balance">
-        Made for startup speed. Connect Gmail and see for yourself.
+        Integrate with your existing systems. Start processing in minutes.
     </h2>
     
     <button class="bg-notion-black text-white text-lg font-medium px-6 py-3 rounded-[6px] hover:bg-notion-gray transition-colors mb-16">
-        Get started for free
+        Start free trial
     </button>
 
-    <div class="flex items-center justify-center gap-4 md:gap-8">
-        <!-- Gmail Logo (Approximate) -->
-        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" class="text-gray-500 w-16 h-16 md:w-20 md:h-20 grayscale opacity-60">
-            <path d="M4 4H20V20H4V4Z" fill="currentColor" fill-opacity="0.2"/>
-            <path d="M4 4L12 11L20 4V20H4V4Z" fill="currentColor"/>
-        </svg>
+    <div class="flex items-center justify-center gap-4 md:gap-8 flex-wrap">
+        <!-- Document Icon -->
+        <div class="flex flex-col items-center gap-2">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-500 w-16 h-16 grayscale opacity-60">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <span class="text-xs text-gray-500">Upload</span>
+        </div>
         
-        <!-- Lightning -->
-        <div class="flex items-center gap-2">
-            <div class="w-12 h-[2px] bg-yellow-400 border-t border-dashed border-yellow-200"></div>
-            <div class="w-10 h-10 rounded-full border-2 border-yellow-400 flex items-center justify-center">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                </svg>
+        <!-- Arrow -->
+        <svg width="40" height="20" viewBox="0 0 40 20" fill="none" class="text-gray-300">
+            <path d="M0 10H35M35 10L28 3M35 10L28 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <!-- V7 Go Logo -->
+        <div class="flex flex-col items-center gap-2">
+            <div class="w-16 h-16 rounded-xl bg-primary-600 flex items-center justify-center">
+                <span class="text-white font-bold text-xl">V7</span>
             </div>
-            <div class="w-12 h-[2px] bg-yellow-400 border-t border-dashed border-yellow-200"></div>
+            <span class="text-xs text-gray-500">Process</span>
         </div>
 
-         <!-- Notion Mail Logo (Paper plane) -->
-        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-notion-black w-16 h-16 md:w-20 md:h-20">
-            <path d="M22 2L11 13"></path>
-            <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+        <!-- Arrow -->
+        <svg width="40" height="20" viewBox="0 0 40 20" fill="none" class="text-gray-300">
+            <path d="M0 10H35M35 10L28 3M35 10L28 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
+
+        <!-- Database Icon -->
+        <div class="flex flex-col items-center gap-2">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-500 w-16 h-16 grayscale opacity-60">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+            </svg>
+            <span class="text-xs text-gray-500">Export</span>
+        </div>
     </div>
 </section>

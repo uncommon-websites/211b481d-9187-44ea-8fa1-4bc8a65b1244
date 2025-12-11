@@ -18,37 +18,40 @@
             </div>
 
             <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black mb-12 text-balance leading-[1.1]">
-                Every reply drafted, quickly.
+                Every field extracted, accurately.
             </h2>
 
             <div class="space-y-8">
                 <div class="flex gap-4">
                     <div class="w-6 h-6 flex items-center justify-center text-notion-gray font-mono text-lg">{"{}"}</div>
                     <div>
-                        <h3 class="font-semibold text-notion-black text-lg">Snippets</h3>
+                        <h3 class="font-semibold text-notion-black text-lg">Custom field extraction</h3>
+                        <p class="text-notion-gray mt-1 leading-relaxed">Define any fields you need—invoice numbers, dates, amounts, addresses—and V7 Go extracts them automatically.</p>
                     </div>
                 </div>
                  <div class="flex gap-4">
-                    <div class="w-6 h-6 flex items-center justify-center text-orange-500">
-                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    <div class="w-6 h-6 flex items-center justify-center text-green-500">
+                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
                     </div>
                     <div>
-                        <h3 class="font-semibold text-notion-black text-lg">Built-in scheduling</h3>
-                        <p class="text-notion-gray mt-1 leading-relaxed">Notion Calendar integrates with Notion Mail. Just type /schedule, mark your availability, and let others pick a time.</p>
+                        <h3 class="font-semibold text-notion-black text-lg">Validation rules</h3>
+                        <p class="text-notion-gray mt-1 leading-relaxed">Set business rules to validate extracted data automatically, ensuring accuracy before it enters your systems.</p>
                     </div>
                 </div>
                  <div class="flex gap-4">
-                    <div class="w-6 h-6 flex items-center justify-center text-notion-gray">
-                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
+                    <div class="w-6 h-6 flex items-center justify-center text-blue-500">
+                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
                     </div>
                     <div>
-                        <h3 class="font-semibold text-notion-black text-lg">Quick replies</h3>
+                        <h3 class="font-semibold text-notion-black text-lg">API integrations</h3>
+                        <p class="text-notion-gray mt-1 leading-relaxed">Export structured data directly to your ERP, accounting software, or database via REST API.</p>
                     </div>
                 </div>
                  <div class="flex gap-4">
                     <div class="w-6 h-6 flex items-center justify-center text-notion-gray font-serif italic font-bold">AI</div>
                     <div>
-                        <h3 class="font-semibold text-notion-black text-lg">Improve your writing with AI</h3>
+                        <h3 class="font-semibold text-notion-black text-lg">Continuous learning</h3>
+                        <p class="text-notion-gray mt-1 leading-relaxed">The AI improves with every document, learning your specific formats and requirements.</p>
                     </div>
                 </div>
             </div>
@@ -59,65 +62,73 @@
             <div class="bg-white rounded-lg shadow-xl border border-gray-200 w-full max-w-md p-6 text-sm">
                 <div class="flex items-center justify-between mb-4 border-b border-gray-100 pb-4">
                     <div>
-                        <div class="font-medium text-notion-black">Diana M <span class="text-gray-400 font-normal">diana@acme.com</span></div>
-                        <div class="font-medium text-notion-black mt-1">Jack Steadman</div>
+                        <div class="font-medium text-notion-black">Invoice_2024_001.pdf</div>
+                        <div class="text-xs text-gray-400 mt-1">Processed • 99% confidence</div>
                     </div>
-                </div>
-                <div class="font-medium text-notion-black mb-4">Partnership</div>
-                <div class="text-notion-gray mb-4">
-                    Let's meet next month<br>
-                    Schedule here
+                    <span class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-green-100 text-green-700">
+                        Verified
+                    </span>
                 </div>
                 
-                <!-- Calendar Widget -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <div class="bg-gray-50 px-3 py-2 border-b border-gray-200 text-xs font-medium text-gray-500">
-                        30 minute meeting
-                    </div>
-                    <div class="grid grid-cols-5 text-center text-xs border-b border-gray-200">
-                        <div class="py-2 border-r border-gray-100">
-                            <div class="text-gray-400">UTC</div>
-                        </div>
-                        <div class="py-2 border-r border-gray-100">
-                            <div class="text-gray-400">Mon 29</div>
-                        </div>
-                         <div class="py-2 border-r border-gray-100">
-                            <div class="text-gray-400">Tue 30</div>
-                        </div>
-                         <div class="py-2 border-r border-gray-100">
-                            <div class="text-gray-400">Wed 31</div>
-                        </div>
-                         <div class="py-2">
-                            <div class="text-gray-400">Thu 1</div>
+                <!-- Extracted Data -->
+                <div class="space-y-4">
+                    <div>
+                        <div class="text-xs font-medium text-gray-500 mb-1">Vendor Information</div>
+                        <div class="bg-gray-50 rounded p-3 space-y-2 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Vendor Name:</span>
+                                <span class="font-medium text-notion-black">Acme Corporation</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Vendor ID:</span>
+                                <span class="font-medium text-notion-black">ACME-2024</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Address:</span>
+                                <span class="font-medium text-notion-black">123 Main St, NY</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="grid grid-cols-5 text-xs h-40 relative">
-                        <!-- Time labels -->
-                        <div class="border-r border-gray-100 text-right pr-2 py-2 text-gray-300 space-y-4">
-                            <div>4AM</div>
-                            <div>5AM</div>
-                            <div>6AM</div>
-                            <div>7AM</div>
-                            <div>8AM</div>
-                        </div>
-                        <!-- Events -->
-                        <div class="border-r border-gray-100 relative">
-                             <div class="absolute top-8 left-1 right-1 h-8 bg-blue-100 border border-blue-200 rounded text-[10px] p-1 text-blue-700 truncate">Product syn...</div>
-                        </div>
-                        <div class="border-r border-gray-100 relative">
-                             <div class="absolute top-12 left-1 right-1 h-12 bg-gray-100 border border-gray-200 rounded text-[10px] p-1 text-gray-500 truncate">[zoom] NO...</div>
-                        </div>
-                         <div class="border-r border-gray-100 relative">
-                             <div class="absolute top-6 left-1 right-1 h-8 bg-gray-100 border border-gray-200 rounded text-[10px] p-1 text-gray-500 truncate">BE revie...</div>
-                             <div class="absolute top-16 left-1 right-1 h-16 bg-orange-100 border border-orange-200 rounded text-[10px] p-1 text-orange-700 truncate">Coffee Ch...</div>
-                        </div>
-                         <div class="relative">
-                             <div class="absolute top-20 left-1 right-1 h-12 bg-gray-100 border border-gray-200 rounded text-[10px] p-1 text-gray-500 truncate">Evan / J...</div>
+
+                    <div>
+                        <div class="text-xs font-medium text-gray-500 mb-1">Invoice Details</div>
+                        <div class="bg-gray-50 rounded p-3 space-y-2 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Invoice Number:</span>
+                                <span class="font-medium text-notion-black">INV-2024-001</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Date:</span>
+                                <span class="font-medium text-notion-black">Jan 15, 2024</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Due Date:</span>
+                                <span class="font-medium text-notion-black">Feb 15, 2024</span>
+                            </div>
                         </div>
                     </div>
-                     <div class="bg-gray-50 px-3 py-2 border-t border-gray-200 text-xs text-gray-500 flex justify-between">
-                        <span>Dec 29 - Jan 2</span>
+
+                    <div>
+                        <div class="text-xs font-medium text-gray-500 mb-1">Payment Information</div>
+                        <div class="bg-blue-50 rounded p-3 space-y-2 text-xs border border-blue-200">
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Subtotal:</span>
+                                <span class="font-medium text-notion-black">$4,250.00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Tax (8%):</span>
+                                <span class="font-medium text-notion-black">$340.00</span>
+                            </div>
+                            <div class="flex justify-between border-t border-blue-200 pt-2">
+                                <span class="font-semibold text-notion-black">Total Amount:</span>
+                                <span class="font-bold text-notion-black">$4,590.00</span>
+                            </div>
+                        </div>
                     </div>
+
+                    <button class="w-full bg-notion-black text-white text-xs font-medium px-4 py-2 rounded hover:bg-notion-gray transition-colors">
+                        Export to Accounting System
+                    </button>
                 </div>
             </div>
         </div>

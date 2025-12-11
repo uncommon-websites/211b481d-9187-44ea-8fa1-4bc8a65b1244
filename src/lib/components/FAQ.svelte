@@ -1,10 +1,10 @@
 <script>
     const faqs = [
-        "Which email provider(s) are Notion Mail compatible with?",
-        "When will Notion Mail be available on mobile devices?",
-        "What languages are Notion Mail available in?",
-        "Can I manage multiple emails accounts on Notion Mail?",
-        "What are Notion Mail's security standards?"
+        "What document formats does V7 Go support?",
+        "How accurate is the data extraction?",
+        "Can V7 Go handle handwritten documents?",
+        "How do I integrate V7 Go with my existing systems?",
+        "What are V7 Go's security and compliance certifications?"
     ];
 </script>
 
